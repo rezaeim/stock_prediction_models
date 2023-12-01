@@ -22,7 +22,6 @@ import numpy as np
 import tensorflow as tf
 
 
-
 def batch_invert_permutation(permutations):
   """Returns batched `tf.invert_permutation` for every row in `permutations`."""
   with tf.name_scope('batch_invert_permutation', values=[permutations]):
